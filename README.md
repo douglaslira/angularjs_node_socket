@@ -1,4 +1,4 @@
-angularjs_node_socket
+Código do tutorial 
 =====================
 
 AngularJS com NODE.JS e Socket.IO
