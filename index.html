@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="App">
+	<head>
+  		<meta charset="UTF-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  		<title>NODE.JS + SOCKET.IO - Douglas Lira</title>
+		<!-- JS -->
+		<script type="text/javascript" src="js/lib/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="js/lib/angular.min.js"></script>
+		<script type="text/javascript" src="js/App.js"></script>
+ 		<script type="text/javascript" src="http://localhost:8000/socket.io/socket.io.js"></script>
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+	</head>
+	<body>
+		<div class="container" ng-view style="margin-top:50px"></div>
+		<!-- Controllers -->
+		<script type="text/javascript" src="js/controllers/DashboardController.js"></script>
+	</body>
+</html>
